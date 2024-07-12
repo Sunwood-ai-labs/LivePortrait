@@ -15,4 +15,4 @@ services:
               count: 1
               capabilities: [ gpu ]
     tty: true
-    command: python3 app.py
+    command: python3 app.py --server_name 0.0.0.0
